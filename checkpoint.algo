@@ -1,0 +1,20 @@
+ALGORITHM Checkpoint
+VAR
+    countera, counterb, counterc:INTEGER := 0
+    sentence: STRING
+   vowels := a, e, i, u, o,: INTEGER
+BEGIN
+//The length of the sentence (the number of characters)
+    read (sentence)
+    Write (sentence.Length)
+//The number of words in the sentence (assuming that the words are separated by a single space).
+    FOR i FROM 0 TO max STEP i++  DO
+        if (sentence[i] :=" "; countera + 1);
+        if (sentence[i] :="."; countera + 1);
+// The number of vowels in the sentence.
+    if (sentence[i] := vowels) {
+        counterb + 1
+    }
+    END_FOR
+    
+END
